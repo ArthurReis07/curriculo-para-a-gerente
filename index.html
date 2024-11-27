@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de Arthur Reis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1></h1>
+            <p>Arthur Reis | Desenvolvedor | Criador de Infoprodutos | Ciclista 🚲</p>
+            <button id="toggle-theme">🌙 Alternar Tema</button>
+        </header>
+        <main>
+            <section id="sobre" class="fade-in">
+                <h2>Sobre Mim</h2>
+                <p>Sou Arthur Reis, apaixonado por criar soluções criativas e adoro explorar novas ideias. 🚀</p>
+            </section>
+            <section id="habilidades" class="fade-in">
+                <h2>Minhas Habilidades</h2>
+                <ul>
+                    <li>🌐 Desenvolvimento Web (HTML, CSS, JS)</li>
+                    <li>📊 Marketing Digital</li>
+                    <li>🚲 Ciclista Amador</li>
+                </ul>
+            </section>
+            <section id="contato" class="fade-in">
+                <h2>Entre em Contato</h2>
+                <form id="form-contato">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar via WhatsApp</button>
+                </form>
+                <p id="resposta-formulario"></p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Arthur Reis. Feito com ❤️ e café ☕.</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
